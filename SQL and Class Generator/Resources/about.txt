@@ -1,0 +1,7 @@
+GData v1
+-------------------------------------------------
+Build By: gbox soft
+Web site: gbox.somee.com
+Email: gronel@ymail.com
+-------------------------------------------------
+GData is a system that generate sql query that supported microsoft sql server and class supported c#.net and vb.net...

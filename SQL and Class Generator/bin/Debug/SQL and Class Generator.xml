@@ -1,0 +1,133 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SQLandClassGenerator
+</name>
+</assembly>
+<members>
+<member name="P:SQL_and_Class_Generator.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SQL_and_Class_Generator.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SQL_and_Class_Generator.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SQL_and_Class_Generator.frm_main.HasError(SQL_and_Class_Generator.frm_main.ErrorNo)">
+	<summary>
+ Has Error
+ </summary>
+	<param name="errornoo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.notcheck">
+	<summary>
+ Not check
+ </summary>
+	<returns>return boolean</returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.CheckEnable">
+	<summary>
+ CheckEnable
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GetPrimary">
+	<summary>
+ Get Primary Key
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GetUpdate_Query">
+	<summary>
+ Update Query
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GetInsert_Query">
+	<summary>
+ Insert Query
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GetVar_Query">
+	<summary>
+ Get Parameter
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GetSelect_Query">
+	<summary>
+ Select Query
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GetDelete_Query">
+	<summary>
+ Delete Query
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GenerateQuery(SQL_and_Class_Generator.frm_main.optionQuery)">
+	<summary>
+ Generate Query String
+ </summary>
+	<param name="opt"></param>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GenerateOption">
+	<summary>
+ Generate Option
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.ConType(SQL_and_Class_Generator.frm_main.Language,System.String)">
+	<summary>
+ convert sql type to language type
+ </summary>
+	<param name="lang">Language</param>
+	<param name="datatype">sql Datatype</param>
+	<returns>converted datatype</returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.LangDataType(SQL_and_Class_Generator.frm_main.Language,System.String,System.String)">
+	<summary>
+ Create private variable for class
+ Convert sql parameter into developer parameter
+ </summary>
+	<param name="lang">language name</param>
+	<param name="param">sql parameter</param>
+	<param name="datatype">sql datatype</param>
+	<returns>converted parameter</returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GetVariable(SQL_and_Class_Generator.frm_main.Language)">
+	<summary>
+ Get variable
+ </summary>
+	<param name="lang">language name</param>
+	<returns>variable</returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GenerateProperty(SQL_and_Class_Generator.frm_main.Language)">
+	<summary>
+ Generate Property
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GenerateSave(SQL_and_Class_Generator.frm_main.Language)">
+	<summary>
+ Generate Save code for development
+ </summary>
+	<param name="lang">language name</param>
+	<returns>Return Save code</returns>
+	<remarks></remarks>
+</member><member name="M:SQL_and_Class_Generator.frm_main.GenerateClass(SQL_and_Class_Generator.frm_main.Language)">
+	<summary>
+ Generate Class
+ </summary>
+	<param name="lang">language name</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
